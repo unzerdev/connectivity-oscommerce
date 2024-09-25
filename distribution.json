@@ -1,0 +1,28 @@
+{
+    "type": "payment",
+    "version": "1.0.0",
+    "description": "Unzer Payments offers various payment methods, which can be integrated into your online shop both quickly and easily. Your mix of payment methods to increase online shop revenue.",
+    "name": "Unzer Payments",
+    "authors": {
+        "name": "Solution 360",
+        "email": "devops@solution360.de",
+        "homepage": "https://www.solution360.de",
+        "role": "Developer"
+    },
+    "src": [
+        {
+            "action": "add",
+            "type": "file",
+            "path": "s360_unzer_oscommerce4.php"
+        },
+        {
+            "action": "copy",
+            "type": "dir",
+            "path": "lib/S360UnzerOsCommerce4"
+        }
+    ],
+    "require": {
+        "platform": "True"
+    },
+    "class": "s360_unzer_oscommerce4"
+}

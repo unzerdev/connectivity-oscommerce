@@ -1,0 +1,22 @@
+.s360-osc4-admin .s360-osc4-table-webhooks td,
+.s360-osc4-admin .s360-osc4-table-payment-methods td {
+  vertical-align: middle;
+}
+.s360-osc4-admin h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+.s360-osc4-admin h2:first-child {
+  margin-top: 0;
+}
+.s360-osc4-admin .btn-delete {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.s360-osc4-admin .btn-delete:before {
+  margin: 0;
+}
