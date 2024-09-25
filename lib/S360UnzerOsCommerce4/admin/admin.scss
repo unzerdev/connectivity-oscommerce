@@ -1,0 +1,29 @@
+.s360-osc4-admin {
+  .s360-osc4-table-webhooks,
+  .s360-osc4-table-payment-methods {
+    td {
+      vertical-align: middle;
+    }
+  }
+  h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .btn-delete {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &:before {
+      margin: 0;
+    }
+  }
+}
